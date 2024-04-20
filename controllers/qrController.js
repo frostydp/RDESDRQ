@@ -67,7 +67,7 @@ const addNewQr = async (req, res) => {
     const createdQrId = result[0]._id;
 
     // Generate the qr_link using the new _id
-    const qr_link = `https://qrrds.netlify.app/qr/${createdQrId}`;
+    const qr_link = `https://qredats.netlify.app/qr/${createdQrId}`;
 
     // Update the newly created document with the qr_link
     const updatedQr = await Qr.findByIdAndUpdate(
