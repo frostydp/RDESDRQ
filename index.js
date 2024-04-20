@@ -18,7 +18,7 @@ const corsOptions = {
     "http://localhost:5174",
     "http://localhost:1420",
     "https://tauri.localhost",
-    "https://qredats.netlify.app/",
+    "https://qredats.netlify.app",
   ],
   credentials: true,
 };
